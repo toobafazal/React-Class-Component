@@ -21,7 +21,7 @@ class State extends Component {
         </tr>
         <tr>
             <td colSpan="2"> Skills</td>
-        <td  colSpan="2">{this.state.skills.map((i)=>(
+        <td colSpan="2">{this.state.skills.map((i)=>(
           <p> : {i}</p>
           ))}
           </td>

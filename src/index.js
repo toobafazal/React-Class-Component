@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import State from './components/State';
+import Hooks from './components/Hooks';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <State />
+    {/* <State /> */}
+    <Hooks />
   </React.StrictMode>,
   document.getElementById('root')
 );
